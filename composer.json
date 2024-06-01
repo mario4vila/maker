@@ -1,0 +1,24 @@
+{
+    "name": "mario4vila/maker",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mario4vila\\Maker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mario4vila",
+            "email": "marioo.rab@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^7.1",
+        "symfony/runtime": "^7.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        }
+    }
+}
