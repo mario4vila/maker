@@ -5,11 +5,11 @@
 use Mario4vila\Maker\Command\DockerCommand;
 use Symfony\Component\Console\Application;
 
-if (!is_file(dirname(__DIR__).'/vendor/autoload_runtime.php')) {
-    throw new LogicException('Symfony Runtime is missing. Try running "composer require symfony/runtime".');
-}
+//if (!is_file(dirname(__DIR__).'/vendor/autoload_runtime.php')) {
+//    throw new LogicException('Symfony Runtime is missing. Try running "composer require symfony/runtime".');
+//}
 
-require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
+require_once './vendor/autoload_runtime.php';
 
 return function (array $context) {
     $application = new Application();
