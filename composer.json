@@ -1,5 +1,7 @@
 {
     "name": "mario4vila/maker",
+    "description": "Dev utility to help to create some resources",
+    "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
